@@ -1,0 +1,21 @@
+name: Publish verified Appunti model resources
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: appunti-model-resources
+  cancel-in-progress: false
+jobs:
+  resources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify upstream, split, upload and verify GitHub SHA-256
+        run: python distribution/publish_models.py

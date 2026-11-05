@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "profile": "appunti-standard-4b",
+  "files": [
+    {
+      "path": "ollama/manifests/registry.ollama.ai/library/qwen3/4b",
+      "bytes": 1022,
+      "sha256": "31d9857b5705086d352d4d6db04e86c5d0f6a2b5d59a4dc7ce5cdb271ccf9141",
+      "content": "{\"schemaVersion\":2,\"mediaType\":\"application/vnd.docker.distribution.manifest.v2+json\",\"config\":{\"mediaType\":\"application/vnd.docker.container.image.v1+json\",\"digest\":\"sha256:e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc\",\"size\":487},\"layers\":[{\"mediaType\":\"application/vnd.ollama.image.model\",\"digest\":\"sha256:3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f\",\"size\":2497280480},{\"mediaType\":\"application/vnd.ollama.image.template\",\"digest\":\"sha256:2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9\",\"size\":1506},{\"mediaType\":\"application/vnd.ollama.image.license\",\"digest\":\"sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12\",\"size\":11338},{\"mediaType\":\"application/vnd.ollama.image.params\",\"digest\":\"sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb\",\"size\":120},{\"mediaType\":\"application/vnd.docker.distribution.manifest.v2+json\",\"digest\":\"sha256:359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7\",\"size\":859}]}"
+    },
+    {
+      "path": "ollama/blobs/sha256-e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc",
+      "bytes": 487,
+      "sha256": "e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc.bin"
+    },
+    {
+      "path": "ollama/blobs/sha256-3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f",
+      "bytes": 2497280480,
+      "sha256": "3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f",
+      "parts": [
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-00.bin",
+          "bytes": 134217728,
+          "sha256": "e2dffa4e5d6c0fbfb27442d83a2544e8a9fa3082f3504f5cf68b75287f5e6911"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-01.bin",
+          "bytes": 134217728,
+          "sha256": "9d4a138142d11e9db95c6f2b933489b6a71350be92c505b73a5716c4bbcbe0dd"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-02.bin",
+          "bytes": 134217728,
+          "sha256": "678a92ad6711dd76c4c684c27440c586200f84979f339dc27adf96a8930e766f"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-03.bin",
+          "bytes": 134217728,
+          "sha256": "915a9490dde56d022f5ad644dadd8a5142df0b2ec7f96f99aca945f79bfb9274"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-04.bin",
+          "bytes": 134217728,
+          "sha256": "4a42dd9457361f623d18e5398a2db9c18d23a64289f5bdf4c2e2449126ec3e09"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-05.bin",
+          "bytes": 134217728,
+          "sha256": "def022ba8cc08e0941fd72ac5b72651b46064e2ab5870c219ca296866e888ed4"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-06.bin",
+          "bytes": 134217728,
+          "sha256": "b4f4a734d6955f8dd2cdea5322a2ea66fceb86fd3206c22aa5f18840a0c76196"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-07.bin",
+          "bytes": 134217728,
+          "sha256": "2994d6aea1893a9f929ec3b12b1f946dbec27f90821bc1fcf48f066398d5b32a"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-08.bin",
+          "bytes": 134217728,
+          "sha256": "b2eb0921577a8428df89a03259f50a1875d9a7b8b2bb97bd9ef3282f42d50b67"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-09.bin",
+          "bytes": 134217728,
+          "sha256": "0eb0f138216de63617fd0c376f86b0b6f0f7af6d78a3fc4a5e79a6ad1c90b38b"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-10.bin",
+          "bytes": 134217728,
+          "sha256": "712f538db62150c303b0fdd3cbf319f01a3603f7183a193697c5efee66598458"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-11.bin",
+          "bytes": 134217728,
+          "sha256": "8e29bb74f49019cf3574d9e427979aaa38bd4ec4fc203deae8c9cc15b129cf0f"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-12.bin",
+          "bytes": 134217728,
+          "sha256": "70a2b78e7a0a5c5e0b92b884e416d305f25aea5edd4cef154291e93669bc1037"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-13.bin",
+          "bytes": 134217728,
+          "sha256": "1065f384a30e0f5f00f0d1707ced370b019c43d5290bb3ab1abc33da4ca8f04e"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-14.bin",
+          "bytes": 134217728,
+          "sha256": "fef561376b63836da59227053f290651a0e9cad9262dbe929e9d6db42a415776"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-15.bin",
+          "bytes": 134217728,
+          "sha256": "276ff26e2b29ce91d55281e7b69d8b9b5b6ba87acc9bdeb6deda51e9d12e0e90"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-16.bin",
+          "bytes": 134217728,
+          "sha256": "9a3e627ab798100c2402e1e37845219ffd590121028f6ba2d32b02e1e4e6e91d"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-17.bin",
+          "bytes": 134217728,
+          "sha256": "2409e310752d0b8b051632db36233d02398a47cd9105cef0da6086a7d00ec0c0"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f-part-18.bin",
+          "bytes": 81361376,
+          "sha256": "09604a0b9da9f3f70bd21cc0ff65f8d29125e1ba9aaa40de7915e294ac46b6a5"
+        }
+      ]
+    },
+    {
+      "path": "ollama/blobs/sha256-2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9",
+      "bytes": 1506,
+      "sha256": "2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9.bin"
+    },
+    {
+      "path": "ollama/blobs/sha256-d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+      "bytes": 11338,
+      "sha256": "d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12.bin"
+    },
+    {
+      "path": "ollama/blobs/sha256-cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+      "bytes": 120,
+      "sha256": "cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb.bin"
+    },
+    {
+      "path": "ollama/blobs/sha256-359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7.bin"
+    },
+    {
+      "path": "ocr/ita.traineddata",
+      "bytes": 2701314,
+      "sha256": "b8f89e1e785118dac4d51ae042c029a64edb5c3ee42ef73027a6d412748d8827",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/b8f89e1e785118dac4d51ae042c029a64edb5c3ee42ef73027a6d412748d8827.bin"
+    },
+    {
+      "path": "ocr/eng.traineddata",
+      "bytes": 4113088,
+      "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2.bin"
+    },
+    {
+      "path": "ocr/deu.traineddata",
+      "bytes": 1525436,
+      "sha256": "19d219bbb6672c869d20a9636c6816a81eb9a71796cb93ebe0cb1530e2cdb22d",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/19d219bbb6672c869d20a9636c6816a81eb9a71796cb93ebe0cb1530e2cdb22d.bin"
+    },
+    {
+      "path": "base/model.bin",
+      "bytes": 145217532,
+      "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+      "parts": [
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9-part-00.bin",
+          "bytes": 134217728,
+          "sha256": "4e0e6b6dc3dbfdfa749cfc7e974cd92f6011c6afb98764c8457b21f66018a088"
+        },
+        {
+          "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9-part-01.bin",
+          "bytes": 10999804,
+          "sha256": "23ff4216f81c8bbee4f093b3155949c8d8c7998052f230e96d2025d7d33e528e"
+        }
+      ]
+    },
+    {
+      "path": "base/config.json",
+      "bytes": 2309,
+      "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a.bin"
+    },
+    {
+      "path": "base/tokenizer.json",
+      "bytes": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab.bin"
+    },
+    {
+      "path": "base/vocabulary.txt",
+      "bytes": 459861,
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+      "url": "https://github.com/alessiomattoccia1-sys/appunti-downloads/releases/download/models-20261105-qwen4b-small/34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913.bin"
+    }
+  ]
+}
